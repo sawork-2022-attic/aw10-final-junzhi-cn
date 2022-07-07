@@ -14,7 +14,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 @EnableCaching
 public class ProductsApplication {
     public static void main(String[] args) {
-        //SpringApplication.run(ProductsApplication.class, args);
+        // SpringApplication.run(ProductsApplication.class, args);
         SpringApplication application = new SpringApplication(ProductsApplication.class);
         application.setWebApplicationType(WebApplicationType.REACTIVE);
         application.run(args);

@@ -33,7 +33,7 @@ public class DeliveryApplication {
     DeliveryService deliveryService;
 
     public static void main(String[] args) {
-        //SpringApplication.run(DeliveryApplication.class, args);
+        // SpringApplication.run(DeliveryApplication.class, args);
         SpringApplication application = new SpringApplication(DeliveryApplication.class);
         application.setWebApplicationType(WebApplicationType.REACTIVE);
         application.run(args);

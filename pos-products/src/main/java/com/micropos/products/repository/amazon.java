@@ -100,7 +100,6 @@ public class amazon implements ProductRepository {
     public static List<Product> parseAmazon(String keyword, int limit) throws IOException {
         List<Product> list = new ArrayList<>();
 
-
         Connection connection = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");

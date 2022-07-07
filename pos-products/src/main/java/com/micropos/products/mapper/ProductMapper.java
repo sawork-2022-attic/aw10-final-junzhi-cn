@@ -7,8 +7,7 @@ import org.mapstruct.Mapper;
 import java.util.Collection;
 
 @Mapper
-public interface
-ProductMapper {
+public interface ProductMapper {
 
     Collection<ProductDto> toProductsDto(Collection<Product> products);
 

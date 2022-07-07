@@ -1,6 +1,5 @@
 package com.micropos.delivery.model;
 
-
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
@@ -29,8 +28,6 @@ public class Order {
     public void setId(Long id) {
         this.id = id;
     }
-
-
 
     public BigDecimal getTotal() {
         return total;

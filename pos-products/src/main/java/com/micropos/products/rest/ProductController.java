@@ -23,7 +23,6 @@ public class ProductController implements ProductsApi {
 
     private final ProductService productService;
 
-
     public ProductController(ProductService productService, ProductMapper productMapper) {
         this.productMapper = productMapper;
         this.productService = productService;
